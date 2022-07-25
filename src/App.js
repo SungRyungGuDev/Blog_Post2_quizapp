@@ -77,7 +77,7 @@ function App() {
   return (
     <div className="App">
       {/* 1. Header */}
-      <h1>USA Quiz</h1>
+      <h1>Simple Quiz about Korea!!</h1>
 
       {/* 2. Current Score */}
       <h2>Current Score: {score}</h2>
