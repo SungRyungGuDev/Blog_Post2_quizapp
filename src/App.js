@@ -9,48 +9,48 @@ function App() {
 
   const questions = [
     {
-      text: "What is the capital of America?",
+      text: "What is the name of Korean traditional costume??",
       options: [
-        { id: 0, text: "New York City", isCorrect: false },
-        { id: 1, text: "Boston", isCorrect: false },
-        { id: 2, text: "Santa Fe", isCorrect: false },
-        { id: 3, text: "Washington DC", isCorrect: true },
+        { id: 0, text: "Tuque", isCorrect: false },
+        { id: 1, text: "Poncho", isCorrect: false },
+        { id: 2, text: "Sari", isCorrect: false },
+        { id: 3, text: "Hanbok", isCorrect: true },
       ],
     },
     {
-      text: "What year was the Constitution of America written?",
+      text: "What is the name of Korean traditional food??",
       options: [
-        { id: 0, text: "1787", isCorrect: true },
-        { id: 1, text: "1776", isCorrect: false },
-        { id: 2, text: "1774", isCorrect: false },
-        { id: 3, text: "1826", isCorrect: false },
+        { id: 0, text: "Kimchi", isCorrect: true },
+        { id: 1, text: "Taco", isCorrect: false },
+        { id: 2, text: "Fish & Chips", isCorrect: false },
+        { id: 3, text: "Pasta", isCorrect: false },
       ],
     },
     {
-      text: "Who was the second president of the US?",
+      text: "What is the name of the world-famous Korean boy group??",
       options: [
-        { id: 0, text: "John Adams", isCorrect: true },
-        { id: 1, text: "Paul Revere", isCorrect: false },
-        { id: 2, text: "Thomas Jefferson", isCorrect: false },
-        { id: 3, text: "Benjamin Franklin", isCorrect: false },
+        { id: 0, text: "BTS", isCorrect: true },
+        { id: 1, text: "ImagineDragons", isCorrect: false },
+        { id: 2, text: "Maroon 5", isCorrect: false },
+        { id: 3, text: "One Direction", isCorrect: false },
       ],
     },
     {
-      text: "What is the largest state in the US?",
+      text: "What is a world-famous Korean drama??",
       options: [
-        { id: 0, text: "California", isCorrect: false },
-        { id: 1, text: "Alaska", isCorrect: true },
-        { id: 2, text: "Texas", isCorrect: false },
-        { id: 3, text: "Montana", isCorrect: false },
+        { id: 0, text: "Quees's Gambit", isCorrect: false },
+        { id: 1, text: "Squid game", isCorrect: true },
+        { id: 2, text: "Strange Things", isCorrect: false },
+        { id: 3, text: "Money Heist", isCorrect: false },
       ],
     },
     {
-      text: "Which of the following countries DO NOT border the US?",
+      text: "What is the name of the world-famous Korean soccer player?",
       options: [
-        { id: 0, text: "Canada", isCorrect: false },
-        { id: 1, text: "Russia", isCorrect: true },
-        { id: 2, text: "Cuba", isCorrect: true },
-        { id: 3, text: "Mexico", isCorrect: false },
+        { id: 0, text: "Messy", isCorrect: false },
+        { id: 1, text: "Son", isCorrect: true },
+        { id: 2, text: "Neymar", isCorrect: true },
+        { id: 3, text: "Mbappe", isCorrect: false },
       ],
     },
   ];
