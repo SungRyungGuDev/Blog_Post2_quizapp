@@ -2,11 +2,9 @@ import React, { useState } from 'react';
 import './App.css';
 
 function App() {
-
   const [showFinalResults, setFinalResults] = useState(false);
   const [score, setScore] = useState(0);
   const [currentQuestion, setCurrentQuestion] = useState(0);
-
   const questions = [
     {
       text: "What is the name of Korean traditional costume??",
@@ -54,34 +52,25 @@ function App() {
       ],
     },
   ];
-
   const optionClicked = (isCorrect) => {
     if (isCorrect) {
       setScore(score +1);
     }
-
     if (currentQuestion +1 < questions.length) {
       setCurrentQuestion(currentQuestion +1 );
     }else{
       setFinalResults(true);
     }
-    
   }
-
   const restartQuiz = () => {
     setScore(0);
     setCurrentQuestion(0);
     setFinalResults(false);
   }
-
   return (
     <div className="App">
-      {/* 1. Header */}
       <h1>Simple Quiz about Korea!!</h1>
-
-      {/* 2. Current Score */}
       <h2>Current Score: {score}</h2>
-
     { showFinalResults ? (
         <div className='final-results'>
         <h1>Final Results</h1>
@@ -94,7 +83,6 @@ function App() {
       <div className="question-card">
       <h2>Question {currentQuestion +1 } out of {questions.length}</h2>
       <h3 className='question-text'>{questions[currentQuestion].text}</h3>
-
       <ul>
         {questions[currentQuestion].options.map((option) => {
           return (
@@ -103,11 +91,8 @@ function App() {
         })}
       </ul>
   </div>
-    ) }
-        
-        
+    )}
     </div>
   );
 }
-
 export default App;
